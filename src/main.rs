@@ -48,6 +48,6 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         .await?;
 
     println!("\nWeather from openweathermap.org:\n {:?}", weather2);
-
+    println!("hello world");
     Ok(())
 }
